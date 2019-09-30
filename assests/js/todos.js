@@ -7,7 +7,7 @@ $("ul").on("click", "li", function(){
 $("ul").on("click", "span", function (event) {
     $(this).parent().fadeOut(500, function() {
         $(this).remove(); 
-    })
+    });
     event.stopPropagation(); //stops the click listener from setting off the parent listeners
 })
 
@@ -19,4 +19,4 @@ $("input[type = 'text']").keypress(function() {
        //Create a new li and append it to the ul
        $("ul").append("<li><span>X</span> " + todoText + "</li>");
     }
-})
+}) ; 
