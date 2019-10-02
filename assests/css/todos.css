@@ -17,6 +17,7 @@ h1 {
 
 ul {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 li {
@@ -28,6 +29,23 @@ li {
 
 li:nth-child(2n){
     background: #f7f7f7;
+}
+
+span{
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
 }
 
 input{
