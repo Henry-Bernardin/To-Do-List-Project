@@ -17,6 +17,6 @@ $("input[type = 'text']").keypress(function() {
        let todoText = $(this).val(); 
        $(this).val(""); //Clears out input field after text is saved to todoText variable
        //Create a new li and append it to the ul
-       $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></span>" + todoText + "</li>");
+       $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + todoText + "</li>");
     }
 }) ; 
