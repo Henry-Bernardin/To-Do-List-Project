@@ -20,3 +20,7 @@ $("input[type = 'text']").keypress(function() {
        $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + todoText + "</li>");
     }
 }) ; 
+
+$(".fa-pencil-square").click(function(){
+    $("input[type = 'text']").fadeToggle();
+})
