@@ -7,9 +7,9 @@
 
 ## Features 
 
-- New items can be added
-- Items can be deleted
-- "Add New Todo" can be toggled on and off
+-Displays a timer 
+-Shows an animated border around the timer 
+
 
 ## Tech Used / Dependencies
 
