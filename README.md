@@ -7,9 +7,9 @@
 
 ## Features 
 
--Ability to add a to-do 
-
--Ability to delete a to-do
+- Ability to add a to-do 
+- Ability to delete a to-do
+- Ability to collapse "New Todo" section
 
 
 ## Tech Used / Dependencies
