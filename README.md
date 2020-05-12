@@ -1,15 +1,15 @@
 # To Do List Project 
  
 #Overview
-- A timer app. 
+- A To Do app. 
 
 ### LIVE LINK: https://henry-bernardin.github.io/To-Do-List-Project/
 
 ## Features 
 
--Displays a timer 
+-Ability to add a to-do 
 
--Shows an animated border around the timer 
+-Ability to delete a to-do
 
 
 ## Tech Used / Dependencies
