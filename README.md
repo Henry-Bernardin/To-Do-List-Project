@@ -1,7 +1,7 @@
-# To Do List Project 
+# To-Do List Project 
  
 #Overview
-- A To Do app. 
+- A To-Do list app. 
 
 ### LIVE LINK: https://henry-bernardin.github.io/To-Do-List-Project/
 
